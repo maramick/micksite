@@ -36,7 +36,7 @@ header .logo {
 }
 
 header ul {
-    font-size: 2em;
+    font-size: 1.5em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +103,7 @@ section img#mountains_front {
     position: absolute;
     color: #fff;
     white-space: nowrap;
-    font-size: 7.5em;
+    font-size: 6.5em;
     z-index: 9;
 }
 
