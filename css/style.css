@@ -8,11 +8,6 @@
     scroll-behavior: smooth;
 }
 
-.nav-1 {
-    font-size: 22px;
-    text-decoration: underline;
-}
-
 body {
     min-height: 100vh;
     overflow-x: hidden;
@@ -41,6 +36,7 @@ header .logo {
 }
 
 header ul {
+    font-size: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,9 +102,9 @@ section img#mountains_front {
 #text {
     position: absolute;
     color: #fff;
-    right: -350px;
+    /* right: -350px; */
     white-space: nowrap;
-    font-size: 7.5vw;
+    font-size: 7.5em;
     z-index: 9;
 }
 
@@ -119,7 +115,7 @@ section img#mountains_front {
     border-radius: 40px;
     background: #fff;
     color: #2b1055;
-    font-size: 1.5em;
+    font-size: 2em;
     z-index: 9;
     transform: translateY(150px);
 
